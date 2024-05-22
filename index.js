@@ -104,11 +104,13 @@ For any questions, please reach out to me via [GitHub](https://github.com/{{gith
 const generateReadmeFile = async ({ questions, readmeTemplate }) => {
   try {
     const answers = await inquirer.prompt(questions);
+
     const readmeContent = readmeTemplate.replace(
       /{{([^}]+)}}/g,
       (match, key) => answers[key]
     );
-    fs.writeFile(pathToReadme, readmeContent, "utf-8");
+
+    await fs.writeFile(pathToReadme, readmeContent, "utf-8");
   } catch (error) {
     console.error("Error generating README:", error);
   }
