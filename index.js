@@ -1,8 +1,8 @@
 const inquirer = require("inquirer");
 const fs = require("fs/promises");
 const path = require("path");
+
 const abPass = path.join(process.cwd(), "README.md");
-// console.log("😎 ~ inquirer:", inquirer.prompt);
 
 const questions = [
   {
@@ -42,47 +42,48 @@ const questions = [
   },
 ];
 
+const readmeTemplate = `
+# {{title}}
+
+## Description
+
+{{description}}
+
+## Installation
+
+{{installation}}
+
+## Usage
+
+{{usage}}
+
+## Contributing
+
+{{contributing}}
+
+## Tests
+
+{{tests}}
+
+## License
+
+{{license}}
+`;
+
 inquirer
   .prompt(questions)
   .then((answers) => {
-    const {
-      title,
-      description,
-      installation,
-      usage,
-      contributing,
-      tests,
-      license,
-    } = answers;
+    const readmeContent = readmeTemplate.replace(
+      /{{([^}]+)}}/g,
+      (match, key) => answers[key]
+    );
 
-    const readmeContent = ` 
-#${title}
-##Description
-${description}
-
-##Installation
-${installation}
-
-##Usage
-${usage}
-
-##Contributing
-${contributing}
-
-##Tests
-${tests}
-
-##License
-${license}
-`;
-    fs.writeFile(abPass, JSON.stringify(readmeContent), "utf-8");
+    return fs.writeFile(abPass, readmeContent, "utf-8");
   })
   .catch((error) => {
     if (error.isTtyError) {
-      console.log(error);
-
-      // Prompt couldn't be rendered in the current environment
+      console.error("Prompt couldn't be rendered in the current environment.");
     } else {
-      // Something else went wrong
+      console.error("Error generating README:", error);
     }
   });
