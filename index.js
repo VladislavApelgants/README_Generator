@@ -40,6 +40,16 @@ const questions = [
     name: "license",
     message: "What license does your project use?",
   },
+  {
+    type: "input",
+    name: "github",
+    message: "What is your GitHub username?",
+  },
+  {
+    type: "input",
+    name: "email",
+    message: "What is your email address?",
+  },
 ];
 
 const readmeTemplate = `
@@ -48,6 +58,14 @@ const readmeTemplate = `
 ## Description
 
 {{description}}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
 
 ## Installation
 
@@ -68,6 +86,10 @@ const readmeTemplate = `
 ## License
 
 {{license}}
+
+## Questions
+
+For any questions, please reach out to me via [GitHub](https://github.com/{{github}}) or [email](mailto:{{email}}).
 `;
 
 inquirer
