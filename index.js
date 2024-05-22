@@ -56,23 +56,23 @@ inquirer
     } = answers;
 
     const readmeContent = ` 
-${title}
-Description
+#${title}
+##Description
 ${description}
 
-Installation
+##Installation
 ${installation}
 
-Usage
+##Usage
 ${usage}
 
-Contributing
+##Contributing
 ${contributing}
 
-Tests
+##Tests
 ${tests}
 
-License
+##License
 ${license}
 `;
     fs.writeFile(abPass, JSON.stringify(readmeContent), "utf-8");
