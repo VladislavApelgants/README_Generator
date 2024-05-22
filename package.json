@@ -1,0 +1,23 @@
+{
+  "name": "readme_generator",
+  "version": "1.0.0",
+  "description": "09 Node.js Challenge: Professional README Generator",
+  "main": "index.js",
+  "scripts": {
+    "start":"node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VladislavApelgants/README_Generator.git"
+  },
+  "author": "VladislavApelgants",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/VladislavApelgants/README_Generator/issues"
+  },
+  "homepage": "https://github.com/VladislavApelgants/README_Generator#readme",
+  "dependencies": {
+    "inquirer": "^8.2.4"
+  }
+}
