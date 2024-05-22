@@ -2,7 +2,7 @@ const inquirer = require("inquirer");
 const fs = require("fs/promises");
 const path = require("path");
 
-const abPass = path.join(process.cwd(), "README.md");
+const pathToReadme = path.join(process.cwd(), "README.md");
 
 const questions = [
   {
@@ -101,20 +101,17 @@ const readmeTemplate = `
 For any questions, please reach out to me via [GitHub](https://github.com/{{github}}) or [email](mailto:{{email}}).
 `;
 
-inquirer
-  .prompt(questions)
-  .then((answers) => {
+const generateReadmeFile = async ({ questions, readmeTemplate }) => {
+  try {
+    const answers = await inquirer.prompt(questions);
     const readmeContent = readmeTemplate.replace(
       /{{([^}]+)}}/g,
       (match, key) => answers[key]
     );
+    fs.writeFile(pathToReadme, readmeContent, "utf-8");
+  } catch (error) {
+    console.error("Error generating README:", error);
+  }
+};
 
-    return fs.writeFile(abPass, readmeContent, "utf-8");
-  })
-  .catch((error) => {
-    if (error.isTtyError) {
-      console.error("Prompt couldn't be rendered in the current environment.");
-    } else {
-      console.error("Error generating README:", error);
-    }
-  });
+generateReadmeFile({ questions, readmeTemplate });
