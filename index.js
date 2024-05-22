@@ -36,9 +36,18 @@ const questions = [
     message: "How to test your project?",
   },
   {
-    type: "input",
+    type: "list",
     name: "license",
-    message: "What license does your project use?",
+    message: "Choose a license for your project:",
+    choices: [
+      "MIT",
+      "GPLv3",
+      "Apache 2.0",
+      "BSD 2-Clause",
+      "BSD 3-Clause",
+      "MPL 2.0",
+      "None",
+    ],
   },
   {
     type: "input",

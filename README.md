@@ -1,9 +1,9 @@
 
-# my readme generator
+# Мой проект
 
 ## Description
 
-my project
+проект по генерации ридми файла
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,24 +15,24 @@ my project
 
 ## Installation
 
-git clone https://github.com/your-username/your-project-name.git
+npm install
 
 ## Usage
 
-npm install
+npm start
 
 ## Contributing
 
-
+Создать ветку от ветки мейн, сделать изменения, открыть пул реквест
 
 ## Tests
 
-git clone https://github.com/your-username/your-project-name.git
+npm run test
 
 ## License
 
-
+MIT
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/Влад) or [email](mailto:йцу"цйу).
+For any questions, please reach out to me via [GitHub](https://github.com/VladislavApelgants) or [email](mailto:qwe@mail.com).
