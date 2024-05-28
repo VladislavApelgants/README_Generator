@@ -34,13 +34,13 @@
 
 ## License
 
-This project is licensed under the BSD 3-Clause License.
+This project is licensed under the Apache 2.0 License.
 
-[![License](https://img.shields.io/badge/License-BSD3Clause-brightgreen.svg)](https://opensource.org/licenses/bsd-3-clause)
-View the [license](https://opensource.org/licenses/bsd-3-clause) for more information.
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
+View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
 
 
-BSD 3-Clause
+Apache 2.0
 
 ## Questions
 
