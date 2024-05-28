@@ -1,9 +1,9 @@
 
-# пукпукп
+# Readme Generator
 
 ## Description
 
-ываыв
+Описание работы
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,19 +15,19 @@
 
 ## Installation
 
-купук
+npm install
 
 ## Usage
 
-кппвыа
+npm start
 
 ## Contributing
 
-цуапу
+fork this repository and open pull request
 
 ## Tests
 
-кпукп
+manual testing
 
 ## License
 
@@ -42,4 +42,4 @@ View the [license](https://opensource.org/licenses/Apache%202.0) for more inform
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/купкп) or [email](mailto:кпукп).
+For any questions, please reach out to me via [GitHub](https://github.com/VladislavApelgants) or [email](mailto:VladislavApelgants).
