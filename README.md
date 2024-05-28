@@ -1,5 +1,5 @@
 
-# fwe
+# wef
 
 ## Description
 
@@ -19,7 +19,7 @@ wef
 
 ## Usage
 
-wef
+
 
 ## Contributing
 
@@ -27,21 +27,21 @@ wef
 
 ## Tests
 
-wef
-
-## License
 
 
 ## License
 
-This project is licensed under the BSD 2-Clause License.
 
-[![License](https://img.shields.io/badge/License-BSD2Clause-brightgreen.svg)](https://opensource.org/licenses/BSD2Clause)
-View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
+## License
+
+This project is licensed under the BSD 3-Clause License.
+
+[![License](https://img.shields.io/badge/License-bsd-3-clause-brightgreen.svg)](https://opensource.org/licenses/bsd-3-clause)
+View the [license](https://opensource.org/licenses/BSD%203-Clause) for more information.
 
 
-BSD 2-Clause
+BSD 3-Clause
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
+For any questions, please reach out to me via [GitHub](https://github.com/) or [email](mailto:).
