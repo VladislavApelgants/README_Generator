@@ -4,6 +4,7 @@ const path = require("path");
 const { renderLicenseSection } = require("./utils/generateMarkdown");
 
 const pathToReadme = path.join(process.cwd(), "README.md");
+
 const questions = [
   {
     type: "input",
@@ -60,19 +61,6 @@ const questions = [
     message: "What is your email address?",
   },
 ];
-
-// function renderLicenseSection(license) {
-//   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
-
-//   return `
-// ## License
-
-// This project is licensed under the ${license} License.
-
-// ${renderLicenseBadge(license)}
-// ${renderLicenseLink(license)}
-// `;
-// }
 
 // Функция для генерации README
 const generateReadmeFile = async (questions) => {

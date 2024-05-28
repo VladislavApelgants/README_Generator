@@ -1,5 +1,5 @@
 function renderLicenseBadge(license) {
-  if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  if (license === "None") return "";
 
   let licenseURL_IMG;
   let licenseURL;
@@ -36,7 +36,6 @@ function renderLicenseBadge(license) {
   return `[![License](https://img.shields.io/badge/License-${licenseURL_IMG}-brightgreen.svg)](https://opensource.org/licenses/${licenseURL})`;
 }
 
-// TODO: Create a function that returns the license link
 function renderLicenseLink(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
@@ -66,8 +65,6 @@ function renderLicenseLink(license) {
   return `View the [license](https://opensource.org/licenses/${licenseURL}) for more information.`;
 }
 
-// TODO: Create a function that returns the license section of README
-// If there is no license, return an empty string
 function renderLicenseSection(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
