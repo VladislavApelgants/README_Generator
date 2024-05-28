@@ -1,9 +1,9 @@
 
-# qwd
+# ewf
 
 ## Description
 
-wqd
+efw
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,33 +15,33 @@ wqd
 
 ## Installation
 
-qwd
+ewf
 
 ## Usage
 
-qwd
+wef
 
 ## Contributing
 
-
+efw
 
 ## Tests
 
-qwd
+ef
 
 ## License
 
 
 ## License
 
-This project is licensed under the BSD 3-Clause License.
+This project is licensed under the GPLv3 License.
 
-[![License](https://img.shields.io/badge/License-BSD3Clause-brightgreen.svg)](https://opensource.org/licenses/BSD3Clause)
-View the [license](https://opensource.org/licenses/BSD%203-Clause) for more information.
+[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
+View the [license](https://opensource.org/licenses/GPLv3) for more information.
 
 
-BSD 3-Clause
+GPLv3
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/qwd) or [email](mailto:qwd).
+For any questions, please reach out to me via [GitHub](https://github.com/ewff) or [email](mailto:ewf).
