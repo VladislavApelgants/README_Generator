@@ -29,8 +29,8 @@ function renderLicenseBadge(license) {
       licenseURL_IMG = "mit";
       break;
     default:
-      licenseURL_IMG = license.replace(/\s/g, "%20");
-      licenseURL = license.replace(/\s/g, "%20");
+      licenseURL_IMG = license.replace(/\s/g, "");
+      licenseURL = license.replace(/\s/g, "");
   }
 
   return `[![License](https://img.shields.io/badge/License-${licenseURL_IMG}-brightgreen.svg)](https://opensource.org/licenses/${licenseURL})`;
