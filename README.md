@@ -1,5 +1,5 @@
 
-# wef
+# ewf
 
 ## Description
 
@@ -23,24 +23,24 @@ wef
 
 ## Contributing
 
-reg
+wef
 
 ## Tests
 
-reg
+wef
 
 ## License
 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the Apache 2.0 License.
 
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-View the [license](https://opensource.org/licenses/MIT) for more information.
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
+View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
 
 
-MIT
+Apache 2.0
 
 ## Questions
 
