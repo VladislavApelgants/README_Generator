@@ -105,14 +105,16 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  return `[![License](https://img.shields.io/badge/License-${license}-brightgreen.svg)](https://opensource.org/licenses/${license})`;
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `[![License](https://img.shields.io/badge/License-${formattedLicense}-brightgreen.svg)](https://opensource.org/licenses/${formattedLicense})`;
 }
 
 function renderLicenseLink(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  return `View the [license](https://opensource.org/licenses/${license}) for more information.`;
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
 }
 
 function renderLicenseSection(license) {
