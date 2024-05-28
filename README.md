@@ -1,9 +1,9 @@
 
-# Мой проект
+# уца
 
 ## Description
 
-проект по генерации ридми файла
+цуауц
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,24 +15,31 @@
 
 ## Installation
 
-npm install
+кпупу
 
 ## Usage
 
-npm start
+цукпукпу
 
 ## Contributing
 
-Создать ветку от ветки мейн, сделать изменения, открыть пул реквест
+укпукпук
 
 ## Tests
 
-npm run test
+укпывапавп
 
 ## License
 
-MIT
+
+## License
+
+This project is licensed under the BSD 2-Clause License.
+
+[![License](https://img.shields.io/badge/License-BSD 2-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD 2-Clause)
+View the [license](https://opensource.org/licenses/BSD 2-Clause) for more information.
+
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/VladislavApelgants) or [email](mailto:qwe@mail.com).
+For any questions, please reach out to me via [GitHub](https://github.com/укппва) or [email](mailto:укпукп).

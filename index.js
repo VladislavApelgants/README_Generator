@@ -3,7 +3,6 @@ const fs = require("fs/promises");
 const path = require("path");
 
 const pathToReadme = path.join(process.cwd(), "README.md");
-
 const questions = [
   {
     type: "input",
@@ -101,13 +100,50 @@ const readmeTemplate = `
 For any questions, please reach out to me via [GitHub](https://github.com/{{github}}) or [email](mailto:{{email}}).
 `;
 
+// Функции для генерации лицензии
+function renderLicenseBadge(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  return `[![License](https://img.shields.io/badge/License-${license}-brightgreen.svg)](https://opensource.org/licenses/${license})`;
+}
+
+function renderLicenseLink(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  return `View the [license](https://opensource.org/licenses/${license}) for more information.`;
+}
+
+function renderLicenseSection(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  return `
+## License
+
+This project is licensed under the ${license} License.
+
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}
+`;
+}
+
+// Функция для генерации README
 const generateReadmeFile = async ({ questions, readmeTemplate }) => {
   try {
     const answers = await inquirer.prompt(questions);
 
+    const { license, ...otherAnswers } = answers; // Выделяем ответы о лицензии
+
     const readmeContent = readmeTemplate.replace(
       /{{([^}]+)}}/g,
-      (match, key) => answers[key]
+      (match, key) => {
+        if (key === "license") {
+          return renderLicenseSection(license); // Генерируем раздел лицензии
+        }
+        return otherAnswers[key]; // Возвращаем другие ответы без изменений
+      }
     );
 
     await fs.writeFile(pathToReadme, readmeContent, "utf-8");
