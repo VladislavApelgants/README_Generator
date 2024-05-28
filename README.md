@@ -1,9 +1,9 @@
 
-# кпук
+# wef
 
 ## Description
 
-укпукп
+wef
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,33 +15,33 @@
 
 ## Installation
 
-укп
+wef
 
 ## Usage
 
-укп
+wef
 
 ## Contributing
 
-укп
+reg
 
 ## Tests
 
-укп
+reg
 
 ## License
 
 
 ## License
 
-This project is licensed under the GPLv3 License.
+This project is licensed under the MIT License.
 
-[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
-View the [license](https://opensource.org/licenses/GPLv3) for more information.
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+View the [license](https://opensource.org/licenses/MIT) for more information.
 
 
-GPLv3
+MIT
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/керекр) or [email](mailto:кер).
+For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
