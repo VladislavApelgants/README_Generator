@@ -1,9 +1,9 @@
 
-# ewf
+# fwe
 
 ## Description
 
-efw
+wef
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,7 +15,7 @@ efw
 
 ## Installation
 
-ewf
+wef
 
 ## Usage
 
@@ -23,25 +23,25 @@ wef
 
 ## Contributing
 
-efw
+wef
 
 ## Tests
 
-ef
+wef
 
 ## License
 
 
 ## License
 
-This project is licensed under the GPLv3 License.
+This project is licensed under the BSD 2-Clause License.
 
-[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
-View the [license](https://opensource.org/licenses/GPLv3) for more information.
+[![License](https://img.shields.io/badge/License-BSD2Clause-brightgreen.svg)](https://opensource.org/licenses/BSD2Clause)
+View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
 
 
-GPLv3
+BSD 2-Clause
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/ewff) or [email](mailto:ewf).
+For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
