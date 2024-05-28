@@ -108,10 +108,10 @@ function renderLicenseBadge(license) {
   let licenseURL;
   switch (license) {
     case "BSD 2-Clause":
-      licenseURL = "BSD2-Clause";
+      licenseURL = "BSD2Clause";
       break;
     case "BSD 3-Clause":
-      licenseURL = "BSD3-Clause";
+      licenseURL = "BSD3Clause";
       break;
     default:
       licenseURL = license.replace(/\s/g, "%20");

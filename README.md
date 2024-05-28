@@ -1,9 +1,9 @@
 
-# ewf
+# wqd
 
 ## Description
 
-ewf
+qwd
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,15 +15,15 @@ ewf
 
 ## Installation
 
-wef
+qwd
 
 ## Usage
 
-wef
+qwd
 
 ## Contributing
 
-efw
+qwd
 
 ## Tests
 
@@ -36,7 +36,7 @@ ewf
 
 This project is licensed under the BSD 2-Clause License.
 
-[![License](https://img.shields.io/badge/License-BSD-2-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD-2-Clause)
+[![License](https://img.shields.io/badge/License-BSD2Clause-brightgreen.svg)](https://opensource.org/licenses/BSD2Clause)
 View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
 
 
@@ -44,4 +44,4 @@ BSD 2-Clause
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
+For any questions, please reach out to me via [GitHub](https://github.com/weff) or [email](mailto:ef).
