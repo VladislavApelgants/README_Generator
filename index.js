@@ -126,8 +126,8 @@ function renderLicenseLink(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  //   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-  return `View the [license](https://opensource.org/licenses/${license}) for more information.`;
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
 }
 
 function renderLicenseSection(license) {
