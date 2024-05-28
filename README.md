@@ -1,9 +1,9 @@
 
-# fdgf
+# wfe
 
 ## Description
 
-gdfgdf
+trh
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,31 +15,31 @@ gdfgdf
 
 ## Installation
 
-dfgdfg
+erge
 
 ## Usage
 
-rthrth
+er
 
 ## Contributing
 
-fdgd
+eg
 
 ## Tests
 
-gtrhtr
+tr
 
 ## License
 
 
 ## License
 
-This project is licensed under the BSD 2-Clause License.
+This project is licensed under the Apache 2.0 License.
 
-[![License](https://img.shields.io/badge/License-BSD%202-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD%202-Clause)
-View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
+[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
+View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
 
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/rhrth) or [email](mailto:rthrth).
+For any questions, please reach out to me via [GitHub](https://github.com/rth) or [email](mailto:rthrth).
