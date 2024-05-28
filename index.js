@@ -61,67 +61,66 @@ const questions = [
   },
 ];
 
-const readmeTemplate = `
-# {{title}}
+// const readmeTemplate = `
+// # {{title}}
 
-## Description
+// ## Description
 
-{{description}}
+// {{description}}
 
-## Table of Contents
-- [Installation](#installation)
-- [Usage](#usage)
-- [Contributing](#contributing)
-- [Tests](#tests)
-- [License](#license)
-- [Questions](#questions)
+// ## Table of Contents
+// - [Installation](#installation)
+// - [Usage](#usage)
+// - [Contributing](#contributing)
+// - [Tests](#tests)
+// - [License](#license)
+// - [Questions](#questions)
 
-## Installation
+// ## Installation
 
-{{installation}}
+// {{installation}}
 
-## Usage
+// ## Usage
 
-{{usage}}
+// {{usage}}
 
-## Contributing
+// ## Contributing
 
-{{contributing}}
+// {{contributing}}
 
-## Tests
+// ## Tests
 
-{{tests}}
+// {{tests}}
 
-## License
+// ## License
 
-{{license}}
+// {{license}}
 
-## Questions
+// ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/{{github}}) or [email](mailto:{{email}}).
-`;
+// For any questions, please reach out to me via [GitHub](https://github.com/{{github}}) or [email](mailto:{{email}}).
+// `;
 
 // Функции для генерации лицензии
 function renderLicenseBadge(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-  return `[![License](https://img.shields.io/badge/License-${formattedLicense}-brightgreen.svg)](https://opensource.org/licenses/${formattedLicense})`;
+  //   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `[![License](https://img.shields.io/badge/License-${license}-brightgreen.svg)](https://opensource.org/licenses/${license})`;
 }
 
 function renderLicenseLink(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-  return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
+  //   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `View the [license](https://opensource.org/licenses/${license}) for more information.`;
 }
 
 function renderLicenseSection(license) {
-  if (license === "None") {
-    return ""; // Возвращаем пустую строку, если лицензия не выбрана
-  }
+  if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
+
   return `
 ## License
 
@@ -133,21 +132,70 @@ ${renderLicenseLink(license)}
 }
 
 // Функция для генерации README
-const generateReadmeFile = async ({ questions, readmeTemplate }) => {
+const generateReadmeFile = async (questions) => {
   try {
     const answers = await inquirer.prompt(questions);
 
-    const { license, ...otherAnswers } = answers; // Выделяем ответы о лицензии
+    const {
+      title,
+      description,
+      installation,
+      usage,
+      contributing,
+      tests,
+      license,
+      github,
+      email,
+    } = answers;
 
-    const readmeContent = readmeTemplate.replace(
-      /{{([^}]+)}}/g,
-      (match, key) => {
-        if (key === "license") {
-          return renderLicenseSection(license); // Генерируем раздел лицензии
-        }
-        return otherAnswers[key]; // Возвращаем другие ответы без изменений
-      }
-    );
+    // const readmeContent = readmeTemplate.replace(
+    //   /{{([^}]+)}}/g,
+    //   (match, key) => {
+    //     if (key === "license") {
+    //       return renderLicenseSection(license); // Генерируем раздел лицензии
+    //     }
+    //     return otherAnswers[key]; // Возвращаем другие ответы без изменений
+    //   }
+    // );
+    const readmeContent = `
+# ${title}
+
+## Description
+
+${description}
+
+## Table of Contents
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [Tests](#tests)
+- [License](#license)
+- [Questions](#questions)
+
+## Installation
+
+${installation}
+
+## Usage
+
+${usage}
+
+## Contributing
+
+${contributing}
+
+## Tests
+
+${tests}
+
+## License
+${renderLicenseSection(license)}
+${license}
+
+## Questions
+
+For any questions, please reach out to me via [GitHub](https://github.com/${github}) or [email](mailto:${email}).
+`;
 
     await fs.writeFile(pathToReadme, readmeContent, "utf-8");
   } catch (error) {
@@ -155,4 +203,4 @@ const generateReadmeFile = async ({ questions, readmeTemplate }) => {
   }
 };
 
-generateReadmeFile({ questions, readmeTemplate });
+generateReadmeFile(questions);

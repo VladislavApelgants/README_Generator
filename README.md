@@ -1,9 +1,9 @@
 
-# erg
+# hrthr
 
 ## Description
 
-erger
+rthrth
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,31 +15,31 @@ erger
 
 ## Installation
 
-erg
+yjryj
 
 ## Usage
 
-erg
+eytjety
 
 ## Contributing
 
-erg
+ehtrth
 
 ## Tests
 
-erg
+retherth
 
 ## License
 
-
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPLv3 License.
 
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-View the [license](https://opensource.org/licenses/MIT) for more information.
+[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
+View the [license](https://opensource.org/licenses/GPLv3) for more information.
 
+GPLv3
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/ergerg) or [email](mailto:erg).
+For any questions, please reach out to me via [GitHub](https://github.com/trhereh) or [email](mailto:trh).
