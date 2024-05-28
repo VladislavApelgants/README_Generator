@@ -1,9 +1,9 @@
 
-# цуа
+# кпук
 
 ## Description
 
-уца
+укпукп
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,33 +15,33 @@
 
 ## Installation
 
-цуа
+укп
 
 ## Usage
 
-цуа
+укп
 
 ## Contributing
 
-цуа
+укп
 
 ## Tests
 
-ацу
+укп
 
 ## License
 
 
 ## License
 
-This project is licensed under the MIT License.
+This project is licensed under the GPLv3 License.
 
-[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
-View the [license](https://opensource.org/licenses/MIT) for more information.
+[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
+View the [license](https://opensource.org/licenses/GPLv3) for more information.
 
 
-MIT
+GPLv3
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/цуа) or [email](mailto:цуа).
+For any questions, please reach out to me via [GitHub](https://github.com/керекр) or [email](mailto:кер).
