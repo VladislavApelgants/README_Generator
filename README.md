@@ -1,9 +1,9 @@
 
-# hrthr
+# qwe
 
 ## Description
 
-rthrth
+wrret
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,31 +15,31 @@ rthrth
 
 ## Installation
 
-yjryj
+ergdf
 
 ## Usage
 
-eytjety
+fgdfg
 
 ## Contributing
 
-ehtrth
+trh
 
 ## Tests
 
-retherth
+trhsdf
 
 ## License
 
 ## License
 
-This project is licensed under the GPLv3 License.
+This project is licensed under the BSD 2-Clause License.
 
-[![License](https://img.shields.io/badge/License-GPLv3-brightgreen.svg)](https://opensource.org/licenses/GPLv3)
-View the [license](https://opensource.org/licenses/GPLv3) for more information.
+[![License](https://img.shields.io/badge/License-BSD 2-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD 2-Clause)
+View the [license](https://opensource.org/licenses/BSD 2-Clause) for more information.
 
-GPLv3
+BSD 2-Clause
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/trhereh) or [email](mailto:trh).
+For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
