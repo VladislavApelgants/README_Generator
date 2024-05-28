@@ -1,9 +1,9 @@
 
-# Readme Generator
+# fdgf
 
 ## Description
 
-Описание работы
+gdfgdf
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,31 +15,31 @@
 
 ## Installation
 
-npm install
+dfgdfg
 
 ## Usage
 
-npm start
+rthrth
 
 ## Contributing
 
-fork this repository and open pull request
+fdgd
 
 ## Tests
 
-manual testing
+gtrhtr
 
 ## License
 
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the BSD 2-Clause License.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
-View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
+[![License](https://img.shields.io/badge/License-BSD%202-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD%202-Clause)
+View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
 
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/VladislavApelgants) or [email](mailto:VladislavApelgants).
+For any questions, please reach out to me via [GitHub](https://github.com/rhrth) or [email](mailto:rthrth).
