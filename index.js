@@ -106,8 +106,20 @@ function renderLicenseBadge(license) {
   if (license === "None") {
     return ""; // Возвращаем пустую строку, если лицензия не выбрана
   }
-  //   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-  return `[![License](https://img.shields.io/badge/License-${license}-brightgreen.svg)](https://opensource.org/licenses/${license})`;
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `[![License](https://img.shields.io/badge/License-${formattedLicense}-brightgreen.svg)](https://opensource.org/licenses/${formattedLicense})`;
+  //   if (license == "Apache License 2.0") {
+  //     license = "Apache%20License%202.0";
+  //   } else if (license == "GNU GPLv3") {
+  //     license = "GNU%20GPLv3";
+  //   } else if (license == "MIT License") {
+  //     license = "MIT%20License";
+  //   } else if (license == "The Unlicense") {
+  //     license = "The%20Unlicense";
+  //   }
+  //   return `
+  //   ![badge](https://img.shields.io/badge/license-${license}-blueviolet.png)
+  //   `;
 }
 
 function renderLicenseLink(license) {
