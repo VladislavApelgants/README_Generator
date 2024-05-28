@@ -1,7 +1,7 @@
 const inquirer = require("inquirer");
 const fs = require("fs/promises");
 const path = require("path");
-const { renderLicenseSection } = require("./utils/generateMarkdown");
+// const { renderLicenseSection } = require("./utils/generateMarkdown");
 
 const pathToReadme = path.join(process.cwd(), "README.md");
 const questions = [
@@ -102,35 +102,35 @@ For any questions, please reach out to me via [GitHub](https://github.com/{{gith
 `;
 
 // Функции для генерации лицензии
-// function renderLicenseBadge(license) {
-//   if (license === "None") {
-//     return ""; // Возвращаем пустую строку, если лицензия не выбрана
-//   }
-//   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-//   return `[![License](https://img.shields.io/badge/License-${formattedLicense}-brightgreen.svg)](https://opensource.org/licenses/${formattedLicense})`;
-// }
+function renderLicenseBadge(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `[![License](https://img.shields.io/badge/License-${formattedLicense}-brightgreen.svg)](https://opensource.org/licenses/${formattedLicense})`;
+}
 
-// function renderLicenseLink(license) {
-//   if (license === "None") {
-//     return ""; // Возвращаем пустую строку, если лицензия не выбрана
-//   }
-//   const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-//   return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
-// }
+function renderLicenseLink(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
+  return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
+}
 
-// function renderLicenseSection(license) {
-//   if (license === "None") {
-//     return ""; // Возвращаем пустую строку, если лицензия не выбрана
-//   }
-//   return `
-// ## License
+function renderLicenseSection(license) {
+  if (license === "None") {
+    return ""; // Возвращаем пустую строку, если лицензия не выбрана
+  }
+  return `
+## License
 
-// This project is licensed under the ${license} License.
+This project is licensed under the ${license} License.
 
-// ${renderLicenseBadge(license)}
-// ${renderLicenseLink(license)}
-// `;
-// }
+${renderLicenseBadge(license)}
+${renderLicenseLink(license)}
+`;
+}
 
 // Функция для генерации README
 const generateReadmeFile = async ({ questions, readmeTemplate }) => {

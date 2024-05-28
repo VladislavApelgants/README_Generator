@@ -1,9 +1,9 @@
 
-# wfe
+# erg
 
 ## Description
 
-trh
+erger
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,31 +15,31 @@ trh
 
 ## Installation
 
-erge
+erg
 
 ## Usage
 
-er
+erg
 
 ## Contributing
 
-eg
+erg
 
 ## Tests
 
-tr
+erg
 
 ## License
 
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the MIT License.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
-View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
+[![License](https://img.shields.io/badge/License-MIT-brightgreen.svg)](https://opensource.org/licenses/MIT)
+View the [license](https://opensource.org/licenses/MIT) for more information.
 
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/rth) or [email](mailto:rthrth).
+For any questions, please reach out to me via [GitHub](https://github.com/ergerg) or [email](mailto:erg).
