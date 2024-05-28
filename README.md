@@ -36,8 +36,8 @@
 
 This project is licensed under the BSD 3-Clause License.
 
-[![License](https://img.shields.io/badge/License-BSD3Clause-brightgreen.svg)](https://opensource.org/licenses/BSD3Clause)
-View the [license](https://opensource.org/licenses/BSD%203-Clause) for more information.
+[![License](https://img.shields.io/badge/License-BSD3Clause-brightgreen.svg)](https://opensource.org/licenses/bsd-3-clause)
+View the [license](https://opensource.org/licenses/bsd-3-clause) for more information.
 
 
 BSD 3-Clause

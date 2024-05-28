@@ -105,26 +105,39 @@ const questions = [
 function renderLicenseBadge(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
-  let licenseURL;
+  let licenseURL_IMG;
   switch (license) {
     case "BSD 2-Clause":
-      licenseURL = "BSD2Clause";
+      licenseURL_IMG = "BSD2Clause";
+      licenseURL = "bsd-3-clause";
       break;
     case "BSD 3-Clause":
-      licenseURL = "BSD3Clause";
+      licenseURL_IMG = "BSD3Clause";
+      licenseURL = "bsd-3-clause";
       break;
     default:
+      licenseURL_IMG = license.replace(/\s/g, "%20");
       licenseURL = license.replace(/\s/g, "%20");
   }
 
-  return `[![License](https://img.shields.io/badge/License-${licenseURL}-brightgreen.svg)](https://opensource.org/licenses/${licenseURL})`;
+  return `[![License](https://img.shields.io/badge/License-${licenseURL_IMG}-brightgreen.svg)](https://opensource.org/licenses/${licenseURL})`;
 }
 
 function renderLicenseLink(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
-  const formattedLicense = license.replace(/\s/g, "%20"); // Заменяем пробелы на %20
-  return `View the [license](https://opensource.org/licenses/${formattedLicense}) for more information.`;
+  let licenseURL;
+  switch (license) {
+    case "BSD 2-Clause":
+      licenseURL = "bsd-2-clause";
+      break;
+    case "BSD 3-Clause":
+      licenseURL = "bsd-3-clause";
+      break;
+    default:
+      licenseURL = license.replace(/\s/g, "%20");
+  }
+  return `View the [license](https://opensource.org/licenses/${licenseURL}) for more information.`;
 }
 
 function renderLicenseSection(license) {
