@@ -34,13 +34,13 @@
 
 ## License
 
-This project is licensed under the Apache 2.0 License.
+This project is licensed under the MPL 2.0 License.
 
-[![License](https://img.shields.io/badge/License-Apache%202.0-brightgreen.svg)](https://opensource.org/licenses/Apache%202.0)
-View the [license](https://opensource.org/licenses/Apache%202.0) for more information.
+[![License](https://img.shields.io/badge/License-undefined-brightgreen.svg)](https://opensource.org/licenses/mpl-2-0)
+View the [license](https://opensource.org/licenses/mpl-2-0) for more information.
 
 
-Apache 2.0
+MPL 2.0
 
 ## Questions
 
