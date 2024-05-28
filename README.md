@@ -1,9 +1,9 @@
 
-# уца
+# ewf
 
 ## Description
 
-ауц
+wef
 
 ## Table of Contents
 - [Installation](#installation)
@@ -15,33 +15,33 @@
 
 ## Installation
 
-цуа
+ewf
 
 ## Usage
 
-цуа
+wef
 
 ## Contributing
 
-а
+ewf
 
 ## Tests
 
-уц
+ef
 
 ## License
 
 
 ## License
 
-This project is licensed under the BSD 2-Clause License.
+This project is licensed under the MPL 2.0 License.
 
-[![License](https://img.shields.io/badge/License-BSD-2-Clause-brightgreen.svg)](https://opensource.org/licenses/BSD-2-Clause)
-View the [license](https://opensource.org/licenses/BSD%202-Clause) for more information.
+[![License](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL%202.0)
+View the [license](https://opensource.org/licenses/MPL%202.0) for more information.
 
 
-BSD 2-Clause
+MPL 2.0
 
 ## Questions
 
-For any questions, please reach out to me via [GitHub](https://github.com/цуа) or [email](mailto:уа).
+For any questions, please reach out to me via [GitHub](https://github.com/wef) or [email](mailto:wef).
