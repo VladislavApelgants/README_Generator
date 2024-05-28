@@ -105,24 +105,19 @@ const questions = [
 function renderLicenseBadge(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
-  let licenseURL_IMG;
   let licenseURL;
   switch (license) {
     case "BSD 2-Clause":
-      licenseURL_IMG = "BSD2Clause";
-      licenseURL = "bsd-2-clause";
+      licenseURL = "BSD2Clause";
       break;
     case "BSD 3-Clause":
-      licenseURL_IMG = "BSD3Clause";
-      licenseURL = "bsd-3-clause";
+      licenseURL = "BSD3Clause";
       break;
     default:
-      licenseURL_IMG = license.replace(/\s/g, "%20");
+      licenseURL = license.replace(/\s/g, "%20");
   }
 
-  return `[![License](https://img.shields.io/badge/License-${licenseURL}-brightgreen.svg)](https://opensource.org/licenses/${
-    licenseURL || licenseURL_IMG
-  })`;
+  return `[![License](https://img.shields.io/badge/License-${licenseURL}-brightgreen.svg)](https://opensource.org/licenses/${licenseURL})`;
 }
 
 function renderLicenseLink(license) {
