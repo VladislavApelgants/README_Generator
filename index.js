@@ -106,7 +106,7 @@ function renderLicenseBadge(license) {
   if (license === "None") return ""; // Возвращаем пустую строку, если лицензия не выбрана
 
   let licenseURL_IMG;
-
+  let licenseURL;
   switch (license) {
     case "BSD 2-Clause":
       licenseURL_IMG = "BSD2Clause";
