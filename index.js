@@ -160,15 +160,6 @@ const generateReadmeFile = async (questions) => {
       email,
     } = answers;
 
-    // const readmeContent = readmeTemplate.replace(
-    //   /{{([^}]+)}}/g,
-    //   (match, key) => {
-    //     if (key === "license") {
-    //       return renderLicenseSection(license); // Генерируем раздел лицензии
-    //     }
-    //     return otherAnswers[key]; // Возвращаем другие ответы без изменений
-    //   }
-    // );
     const readmeContent = `
 # ${title}
 
@@ -201,7 +192,9 @@ ${contributing}
 ${tests}
 
 ## License
+
 ${renderLicenseSection(license)}
+
 ${license}
 
 ## Questions
